@@ -1,4 +1,4 @@
- public class Cats {
+ public class Cats implements AnimalInterface {
 
      public int teeth = 4;
      public int eyes = 2;
