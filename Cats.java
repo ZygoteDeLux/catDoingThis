@@ -16,7 +16,7 @@
          if(cat2 == cat1){
              cat2.sleep();
              cat1.sleep();
-             cat1.getProfit();
+             System.out.println(cat1.getProfit());
          }
 
      }
