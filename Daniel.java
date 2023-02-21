@@ -9,12 +9,11 @@ public class Daniel {
         obj.run();
     }
     public void run(){
-        int i = sout("hej",5);
+        int i = sout("hej",4);
 
         if(i>5){
             System.out.print("har du det godt");
-            List<Finger> fingerList = new ArrayList<>();
-            fingerList=getFingered(i);
+            List<Finger> fingerList = getFingered(i);
             Hand hand = new Hand();
             for (int j = 0; j < fingerList.size(); j++) {
                 hand.addFinger(fingerList.get(j));
